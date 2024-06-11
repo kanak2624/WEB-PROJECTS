@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #87ceeb;
+    font-family: 'Arial', sans-serif;
+}
+
+.scene {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.character {
+    position: absolute;
+    bottom: 5px;
+    width: 25px;
+    height: 50px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.doraemon {
+    left: 25px;
+    background: blue;
+    animation: bounce 2s infinite;
+}
+
+.nobita {
+    left: 75px;
+    background: yellow;
+    animation: bounce 2.2s infinite;
+}
+
+.sizuka {
+    left: 125px;
+    background: pink;
+    animation: bounce 2.4s infinite;
+}
+
+.suneo {
+    left: 175px;
+    background: orange;
+    animation: bounce 2.6s infinite;
+}
+
+.gian {
+    left: 225px;
+    background: brown;
+    animation: bounce 2.8s infinite;
+}
+
+.character1 {
+    left: 275px;
+    background: #ff6347; /* tomato */
+    animation: bounce 2s infinite;
+}
+
+.character2 {
+    left: 325px;
+    background: #40e0d0; /* turquoise */
+    animation: bounce 2.2s infinite;
+}
+
+.character3 {
+    left: 375px;
+    background: #9acd32; /* yellowgreen */
+    animation: bounce 2.4s infinite;
+}
+
+.character4 {
+    left: 425px;
+    background: #ff69b4; /* hotpink */
+    animation: bounce 2.6s infinite;
+}
+
+.character5 {
+    left: 475px;
+    background: #4682b4; /* steelblue */
+    animation: bounce 2.8s infinite;
+}
+
+.character6 {
+    left: 525px;
+    background: #8a2be2; /* blueviolet */
+    animation: bounce 3s infinite;
+}
+
+.character7 {
+    left: 575px;
+    background: #ffd700; /* gold */
+    animation: bounce 3.2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-7.5px);
+    }
+}
